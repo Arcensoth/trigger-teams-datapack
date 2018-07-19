@@ -17,7 +17,7 @@ Objective     | Criteria                  | Usage     | Description
 `trt.config`  | `dummy`                   | Input     | Reserved for configuration options.
 `trt.ticks`   | `custom:play_one_minute`  | Read-only | Naturally-increasing cooldown timer for players.
 
-#### `teams_config`
+#### `trt.config`
 Fakeplayer  | Default | Description
 ----------- | ------- | -----------
 `$cooldown` | `0`     | The number of ticks players must wait between joining teams.
