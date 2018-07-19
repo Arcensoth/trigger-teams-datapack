@@ -33,6 +33,7 @@ Trigger       | Description
 `trt.leave`   | Leave the current team.
 `trt.pink`    | Join the pink team.
 `trt.red`     | Join the red team.
+`trt.refresh` | Manually refresh triggers.
 `trt.yellow`  | Join the yellow team.
 
 ## Teams

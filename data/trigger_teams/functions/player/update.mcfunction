@@ -1,6 +1,7 @@
 # trigger_teams:player/update
 
 # check general triggers
+execute if entity @s[scores={trt.refresh=1..}] run function trigger_teams:player/refresh
 execute if entity @s[scores={trt.leave=1..}] run function trigger_teams:player/leave
 
 # check team triggers
@@ -20,3 +21,6 @@ execute if entity @s[tag=trigger_teams.cooldown] if score @s trt.ticks >= $coold
 
 # enable team triggers after cooldown expires, and only if they are not already enabled
 execute if entity @s[tag=!trigger_teams.enabled,tag=!trigger_teams.cooldown] run function trigger_teams:player/enable
+
+# ensure the refresh trigger is always enabled
+scoreboard players enable @s trt.refresh

@@ -1,6 +1,6 @@
 # trigger_teams:player/disable
 
-# disable general triggers
+# disable leave trigger
 scoreboard players reset @s trt.leave
 
 # disable team triggers

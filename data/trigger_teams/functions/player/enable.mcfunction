@@ -1,6 +1,6 @@
 # trigger_teams:player/enable
 
-# enable general triggers
+# enable leave trigger
 scoreboard players enable @s trt.leave
 
 # enable team triggers

@@ -3,6 +3,7 @@
 scoreboard objectives add trt.ticks minecraft.custom:minecraft.play_one_minute
 scoreboard objectives add trt.config dummy
 
+scoreboard objectives add trt.refresh trigger
 scoreboard objectives add trt.leave trigger
 
 # configure defaults
