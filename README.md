@@ -9,15 +9,50 @@ Category    | Utility
 Namespace   | `trigger_teams`
 Scorespace  | `trt`
 
+- [Configuration](#configuration)
+  - [Cooldown timer](#cooldown-timer)
+  - [Ignore players](#ignore-players)
+  - [Debug mode](#debug-mode)
+- [Scoreboard](#scoreboard)
+- [Triggers](#triggers)
+- [Teams](#teams)
+- [Entity Tags](#entity-tags)
+- [Event Hooks](#event-hooks)
+
+## Configuration
+The objective `trt.config` is used to hold configuration values via fakeplayers. There are also various entity tags available that will change behaviour. Operators may change scoreboard values and assign tags to players directly.
+
+### Cooldown timer
+Require players to wait 30 seconds (600 ticks) between switching teams:
+```
+scoreboard players set $cooldown trt.config 600
+```
+
+Disable the cooldown, allowing players to switch teams without restraint:
+```
+scoreboard players set $cooldown trt.config 0
+```
+
+### Ignore players
+Ignore players, denying them the ability to manage their own teams:
+```
+tag <targets> add trigger_teams.ignore
+```
+
+### Debug mode
+Expose players to debugging mechanisms:
+```
+tag <targets> add trigger_teams.debug
+```
+
 ## Scoreboard
-### Objectives
 Objective     | Criteria                  | Usage     | Description
 ------------- | ------------------------- | --------- | -----------
 `trt.module`  | `dummy`                   | Read-only | Reserved for SMF.
 `trt.config`  | `dummy`                   | Input     | Reserved for configuration options.
 `trt.ticks`   | `custom:play_one_minute`  | Read-only | Naturally-increasing cooldown timer for players.
 
-#### `trt.config`
+### `trt.config`
 Fakeplayer  | Default | Description
 ----------- | ------- | -----------
 `$cooldown` | `0`     | The number of ticks players must wait between switching teams.

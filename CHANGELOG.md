@@ -1,3 +1,5 @@
+# v0.1.2-dev
+
 # v0.1.1
 - Allow players to leave their team
 - Allow players to manually refresh their triggers
