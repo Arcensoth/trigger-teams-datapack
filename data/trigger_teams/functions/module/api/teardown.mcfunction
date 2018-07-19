@@ -3,6 +3,8 @@
 scoreboard objectives remove trt.ticks
 scoreboard objectives remove trt.config
 
+scoreboard objectives remove trt.leave
+
 # aqua
 team remove trt.aqua
 scoreboard objectives remove trt.aqua

@@ -3,6 +3,8 @@
 scoreboard objectives add trt.ticks minecraft.custom:minecraft.play_one_minute
 scoreboard objectives add trt.config dummy
 
+scoreboard objectives add trt.leave trigger
+
 # configure defaults
 scoreboard players set $cooldown trt.config 0
 

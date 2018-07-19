@@ -20,7 +20,7 @@ Objective     | Criteria                  | Usage     | Description
 #### `trt.config`
 Fakeplayer  | Default | Description
 ----------- | ------- | -----------
-`$cooldown` | `0`     | The number of ticks players must wait between joining teams.
+`$cooldown` | `0`     | The number of ticks players must wait between switching teams.
 
 ## Triggers
 Trigger       | Description
@@ -30,6 +30,7 @@ Trigger       | Description
 `trt.gold`    | Join the gold team.
 `trt.gray`    | Join the gray team.
 `trt.green`   | Join the green team.
+`trt.leave`   | Leave the current team.
 `trt.pink`    | Join the pink team.
 `trt.red`     | Join the red team.
 `trt.yellow`  | Join the yellow team.
@@ -57,8 +58,8 @@ Entity Tag                | Description
 ## Event Hooks
 Function Tag                                | Description
 ------------------------------------------- | -----------
-`#trigger_teams:hooks/player/disabled`      | Run by a player after they join a team and start their cooldown.
-`#trigger_teams:hooks/player/enabled`       | Run by a player after their cooldown is up and they may join a team.
+`#trigger_teams:hooks/player/disabled`      | Run by a player when they join a team and start their cooldown.
+`#trigger_teams:hooks/player/enabled`       | Run by a player when their cooldown is up and they may join a team.
 `#trigger_teams:hooks/player/joined/aqua`   | Run by a player when they join the aqua team.
 `#trigger_teams:hooks/player/joined/blue`   | Run by a player when they join the blue team.
 `#trigger_teams:hooks/player/joined/gold`   | Run by a player when they join the gold team.
@@ -67,3 +68,4 @@ Function Tag                                | Description
 `#trigger_teams:hooks/player/joined/pink`   | Run by a player when they join the pink team.
 `#trigger_teams:hooks/player/joined/red`    | Run by a player when they join the red team.
 `#trigger_teams:hooks/player/joined/yellow` | Run by a player when they join the yellow team.
+`#trigger_teams:hooks/player/left`          | Run by a player when they leave their team.

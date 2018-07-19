@@ -1,6 +1,9 @@
 # trigger_teams:player/disable
 
-# disable all team triggers
+# disable general triggers
+scoreboard players reset @s trt.leave
+
+# disable team triggers
 scoreboard players reset @s trt.aqua
 scoreboard players reset @s trt.blue
 scoreboard players reset @s trt.gold

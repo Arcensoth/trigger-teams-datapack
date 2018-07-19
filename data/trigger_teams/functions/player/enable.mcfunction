@@ -1,6 +1,9 @@
 # trigger_teams:player/enable
 
-# enable all team triggers
+# enable general triggers
+scoreboard players enable @s trt.leave
+
+# enable team triggers
 scoreboard players enable @s trt.aqua
 scoreboard players enable @s trt.blue
 scoreboard players enable @s trt.gold

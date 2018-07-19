@@ -1,6 +1,9 @@
 # trigger_teams:player/update
 
-# check all team triggers
+# check general triggers
+execute if entity @s[scores={trt.leave=1..}] run function trigger_teams:player/leave
+
+# check team triggers
 execute if entity @s[scores={trt.aqua=1..}] run function trigger_teams:player/join/aqua
 execute if entity @s[scores={trt.blue=1..}] run function trigger_teams:player/join/blue
 execute if entity @s[scores={trt.gold=1..}] run function trigger_teams:player/join/gold
