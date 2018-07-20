@@ -1,5 +1,8 @@
+# v1.0.0
+- First stable release
+
 # v0.1.3
-_ Use SMF v0.7.0
+- Use SMF v0.7.0
 
 # v0.1.2
 - Add remaining color teams for a total of 15
