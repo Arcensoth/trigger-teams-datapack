@@ -10,9 +10,37 @@ scoreboard objectives remove trt.leave
 team remove trt.aqua
 scoreboard objectives remove trt.aqua
 
+# black
+team remove trt.black
+scoreboard objectives remove trt.black
+
 # blue
 team remove trt.blue
 scoreboard objectives remove trt.blue
+
+# dark_aqua
+team remove trt.dark_aqua
+scoreboard objectives remove trt.dark_aqua
+
+# dark_blue
+team remove trt.dark_blue
+scoreboard objectives remove trt.dark_blue
+
+# dark_gray
+team remove trt.dark_gray
+scoreboard objectives remove trt.dark_gray
+
+# dark_green
+team remove trt.dark_green
+scoreboard objectives remove trt.dark_green
+
+# dark_purple
+team remove trt.dark_purple
+scoreboard objectives remove trt.dark_purple
+
+# dark_red
+team remove trt.dark_red
+scoreboard objectives remove trt.dark_red
 
 # gold
 team remove trt.gold
@@ -26,9 +54,9 @@ scoreboard objectives remove trt.gray
 team remove trt.green
 scoreboard objectives remove trt.green
 
-# lightpurple
-team remove trt.lightpurple
-scoreboard objectives remove trt.lightpurple
+# light_purple
+team remove trt.light_purple
+scoreboard objectives remove trt.light_purple
 
 # red
 team remove trt.red

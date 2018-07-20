@@ -6,11 +6,18 @@ execute if entity @s[scores={trt.leave=1..}] run function trigger_teams:player/l
 
 # check team triggers
 execute if entity @s[scores={trt.aqua=1..}] run function trigger_teams:player/join/aqua
+execute if entity @s[scores={trt.black=1..}] run function trigger_teams:player/join/black
 execute if entity @s[scores={trt.blue=1..}] run function trigger_teams:player/join/blue
+execute if entity @s[scores={trt.dark_aqua=1..}] run function trigger_teams:player/join/dark_aqua
+execute if entity @s[scores={trt.dark_blue=1..}] run function trigger_teams:player/join/dark_blue
+execute if entity @s[scores={trt.dark_gray=1..}] run function trigger_teams:player/join/dark_gray
+execute if entity @s[scores={trt.dark_green=1..}] run function trigger_teams:player/join/dark_green
+execute if entity @s[scores={trt.dark_purple=1..}] run function trigger_teams:player/join/dark_purple
+execute if entity @s[scores={trt.dark_red=1..}] run function trigger_teams:player/join/dark_red
 execute if entity @s[scores={trt.gold=1..}] run function trigger_teams:player/join/gold
 execute if entity @s[scores={trt.gray=1..}] run function trigger_teams:player/join/gray
 execute if entity @s[scores={trt.green=1..}] run function trigger_teams:player/join/green
-execute if entity @s[scores={trt.lightpurple=1..}] run function trigger_teams:player/join/lightpurple
+execute if entity @s[scores={trt.light_purple=1..}] run function trigger_teams:player/join/light_purple
 execute if entity @s[scores={trt.red=1..}] run function trigger_teams:player/join/red
 execute if entity @s[scores={trt.yellow=1..}] run function trigger_teams:player/join/yellow
 
