@@ -1,5 +1,5 @@
 # Trigger Teams
-Self-assignable teams with triggers.
+Allow players to freely change teams for PvP and group events.
 
 ![Showcase](https://i.imgur.com/05RE6ET.png)
 
