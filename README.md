@@ -72,16 +72,16 @@ Trigger       | Description
 `trt.yellow`  | Join the yellow team.
 
 ## Teams
-Team          | Description
-------------- | -----------
-`trt.aqua`    | Self-assignable team with the color `aqua`.
-`trt.blue`    | Self-assignable team with the color `blue`.
-`trt.gold`    | Self-assignable team with the color `gold`.
-`trt.gray`    | Self-assignable team with the color `gray`.
-`trt.green`   | Self-assignable team with the color `green`.
-`trt.pink`    | Self-assignable team with the color `light_purple`.
-`trt.red`     | Self-assignable team with the color `red`.
-`trt.yellow`  | Self-assignable team with the color `yellow`.
+Team              | Description
+----------------- | -----------
+`trt.aqua`        | Self-assignable team with the color `aqua`.
+`trt.blue`        | Self-assignable team with the color `blue`.
+`trt.gold`        | Self-assignable team with the color `gold`.
+`trt.gray`        | Self-assignable team with the color `gray`.
+`trt.green`       | Self-assignable team with the color `green`.
+`trt.lightpurple` | Self-assignable team with the color `light_purple`.
+`trt.red`         | Self-assignable team with the color `red`.
+`trt.yellow`      | Self-assignable team with the color `yellow`.
 
 ## Entity Tags
 Entity Tag                | Description

@@ -9,7 +9,7 @@ scoreboard players reset @s trt.blue
 scoreboard players reset @s trt.gold
 scoreboard players reset @s trt.gray
 scoreboard players reset @s trt.green
-scoreboard players reset @s trt.pink
+scoreboard players reset @s trt.lightpurple
 scoreboard players reset @s trt.red
 scoreboard players reset @s trt.yellow
 

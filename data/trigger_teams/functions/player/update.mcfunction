@@ -10,7 +10,7 @@ execute if entity @s[scores={trt.blue=1..}] run function trigger_teams:player/jo
 execute if entity @s[scores={trt.gold=1..}] run function trigger_teams:player/join/gold
 execute if entity @s[scores={trt.gray=1..}] run function trigger_teams:player/join/gray
 execute if entity @s[scores={trt.green=1..}] run function trigger_teams:player/join/green
-execute if entity @s[scores={trt.pink=1..}] run function trigger_teams:player/join/pink
+execute if entity @s[scores={trt.lightpurple=1..}] run function trigger_teams:player/join/lightpurple
 execute if entity @s[scores={trt.red=1..}] run function trigger_teams:player/join/red
 execute if entity @s[scores={trt.yellow=1..}] run function trigger_teams:player/join/yellow
 

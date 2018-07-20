@@ -9,7 +9,7 @@ scoreboard players enable @s trt.blue
 scoreboard players enable @s trt.gold
 scoreboard players enable @s trt.gray
 scoreboard players enable @s trt.green
-scoreboard players enable @s trt.pink
+scoreboard players enable @s trt.lightpurple
 scoreboard players enable @s trt.red
 scoreboard players enable @s trt.yellow
 

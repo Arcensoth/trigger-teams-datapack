@@ -44,12 +44,12 @@ team modify trt.green friendlyFire false
 team modify trt.green collisionRule pushOtherTeams
 scoreboard objectives add trt.green trigger
 
-# pink
-team add trt.pink {"text":"Pink","color":"light_purple"}
-team modify trt.pink color light_purple
-team modify trt.pink friendlyFire false
-team modify trt.pink collisionRule pushOtherTeams
-scoreboard objectives add trt.pink trigger
+# lightpurple
+team add trt.lightpurple {"text":"Light Purple","color":"light_purple"}
+team modify trt.lightpurple color light_purple
+team modify trt.lightpurple friendlyFire false
+team modify trt.lightpurple collisionRule pushOtherTeams
+scoreboard objectives add trt.lightpurple trigger
 
 # red
 team add trt.red {"text":"Red","color":"red"}

@@ -1,4 +1,5 @@
 # v0.1.2-dev
+- Rename pink -> light purple to respect color names
 
 # v0.1.1
 - Allow players to leave their team

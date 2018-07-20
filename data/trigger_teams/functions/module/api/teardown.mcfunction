@@ -26,9 +26,9 @@ scoreboard objectives remove trt.gray
 team remove trt.green
 scoreboard objectives remove trt.green
 
-# pink
-team remove trt.pink
-scoreboard objectives remove trt.pink
+# lightpurple
+team remove trt.lightpurple
+scoreboard objectives remove trt.lightpurple
 
 # red
 team remove trt.red
