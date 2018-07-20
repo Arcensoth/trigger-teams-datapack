@@ -1,3 +1,6 @@
+# v0.1.3-dev
+_ Use SMF v0.7.0
+
 # v0.1.2
 - Add remaining color teams for a total of 15
 - Rename pink -> light purple to respect color names
