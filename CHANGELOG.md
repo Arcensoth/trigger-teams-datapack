@@ -1,4 +1,4 @@
-# v0.1.2-dev
+# v0.1.2
 - Add remaining color teams for a total of 15
 - Rename pink -> light purple to respect color names
 
