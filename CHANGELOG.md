@@ -1,4 +1,4 @@
-# v1.1.0-dev
+# v1.1.0
 - Update to SMF v0.10.0
 
 # v1.0.0
