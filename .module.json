@@ -1,0 +1,11 @@
+{
+  "title": "Trigger Teams",
+  "description": "Allow players to freely change teams for PvP and group events.",
+  "version": "1.1.0-dev",
+  "namespace": "trigger_teams",
+  "scorespace": "trt",
+  "authors": {
+    "Arcensoth": "https://github.com/Arcensoth"
+  },
+  "smf_version": "0.10.0"
+}
